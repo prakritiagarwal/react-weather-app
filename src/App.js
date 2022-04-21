@@ -43,7 +43,7 @@ class WeatherCard extends React.Component{
             <h3>Conditions {this.props.weatherResult.current.weather[0].description}</h3>
             <h3>Humidity {this.props.weatherResult.humidity}</h3>
             <h3>High {this.props.weatherResult.daily[0].temp.max}°F</h3>
-            <h3>Low {this.props.weatherResult.daily[0].temp.low}°F</h3>
+            <h3>Low {this.props.weatherResult.daily[0].temp.min}°F</h3>
         </div>
       )
   }
